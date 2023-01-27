@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <!-- nav: section 1 -->
+    <nav class="nav-bar-container text-center">
+        <div class="row text-center">
+            <div class="col-2 d-flex align-items-center">
+                <img src="./pics/BoxLogo.png" alt="">
+                <p class="text-primary-emphasis fw-bold fs-2 align-self-center pt-2 ps-2"><em>The</em>Box</p> 
+            </div>
+            <ul class="nav-items col-6 offset-4 align-items-center justify-content-around list-unstyled d-flex">
+                    <li><a href="#" class="text-decoration-none text-black link-info">Home</a></li>
+                    <li><a href="#" class="text-decoration-none text-black link-info">About Us</a></li>
+                    <li><a href="#" class="text-decoration-none text-black link-info">Projects</a></li>
+                    <li><a href="#" class="text-decoration-none text-black link-info">Services</a></li>
+                    <li><a href="#" class="text-decoration-none text-black link-info">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+<!-- section 2 -->
+    <section class="building-container position-relative d-flex align-items-center p-4" style="background-image: url(./pics/building.png); background-size: cover; height: 75vh;">
+        <div class="build-text bg-image fw-bold"><h1>Building Things <br> is our mission.</h1></div>
+        <div class="feature-proj d-flex flex-column justify-content-around align-items-center position-absolute bottom-0 end-0 bg-primary me-4">
+            <div class="featureProjTitle text-white p-2 fs-4">Feature Projects</div>
+            <div class="feature-proj-desc text-white p-2 fs-5">The National University of Architecture</div>
+            <div class="d-flex justify-content-around bg-black" style="width:100%;">
+                <button class="feature-back rounded-0 btn text-white border-end border-2 flex-fill" style="width: 10vw">
+                    <img src="./pics/VectorLarrow.png" alt=""> Back
+                </button>
+                <button class="feature-next rounded-0 btn text-white flex-fill" style="width: 10vw">
+                    Next <img src="./pics/VectorRarrow.png" alt="">
+                </button>
+            </div>
+        </div>
+    </section>
+<!-- section 3 -->
+    <section class="reputation-container d-flex flex-column">
+        <div class="repu-title fw-bold fs-1 text-center pt-4">Our Reputation</div>
+        <div class="repu-reason d-flex justify-content-around m-4">
+            <div class="best-services card d-flex flex-column p-4" style="width: 300px;">
+                <ul class="list-unstyled ps-2 pt-2">
+                    <li><img src="./pics/Vector_headphone.png" alt=""></li>
+                    <li class="bold">Best Services</li>
+                    <li>Nullam senectus porttitor in eget. Eget rutrum leo interdum.</li>
+                </ul>
+            </div>
+            <div class="best-team  card d-flex flex-column p-4" style="width: 300px;">
+                <ul class="list-unstyled ps-2 pt-2">
+                    <li><img src="./pics/Vector_headphone.png" alt=""></li>
+                    <li class="bold">Best Teams</li>
+                    <li>Cursus semper tellus volutpat aliquet lacus.</li>
+                </ul>
+            </div>
+            <div class="best-design card card d-flex flex-column p-4" style="width: 300px;">
+                <ul class="list-unstyled ps-2 pt-2">
+                    <li><img src="./pics/Vector_tool.png" alt=""></li>
+                    <li class="bold">Best Designs</li>
+                    <li>Ultricies at ipsum nunc, tristique nam lectus.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+<!-- section 4 -->
+    <section class="aboutUsContainer position-relative w-100 p-5">
+        <div class="aboutImage w-50">
+            <img src="./pics/unsplash_6anudmpILw4.png" class="w-100" alt="">
+        </div>
+        <div class="about-us-desc bg-primary text-white p-4 position-absolute w-25" style="top: 15%; left: 40%;">
+                <h1 class="about-top fs-2">About Us</h1>
+                <div class="about-middle">
+                    <p>For more than 30 years we have been delivering world-class construction and we have built many lasting relationships along the way</p>
+                    <br>
+                    <p>We've matured into an industry leader and trusted resource for those seeking quality, innovation and reliability when building in the U.S.</p>
+                </div>
+                <div class="about-bottom">
+                    <button class="btn bg-light text-primary">More on our History
+                    </button>
+                </div>
+        </div>
+    </section>
+<!-- section 5 -->
+    <section class="serviceContainer bg-light d-flex flex-column justify-content-around align-items-center p-5 gap-3">
+        <div class="serviceTitle align-items-center fs-2 fw-bold pt-3">Services</div>
+        <div class="d-flex gap-2 w-75 justify-content-around">
+            <div class="service construction card col-3 align-items-center d-flex flex-column py-3">
+                <div><img src="./pics/construction_icon.png" alt=""></div>
+                <div class="rectangle"><img src="./pics/Rectangle 18(grey).png" alt=""></div>
+                <div class="text">Construction</div>
+            </div>
+            <div class="service renovation card col-3 align-items-center d-flex flex-column bg-primary text-light py-3">
+                <div><img src="./pics/renovation_icon.png" alt=""></div>
+                <div class="rectangle"><img src="./pics/Rectangle 18(white).png" alt=""></div>
+                <div class="text">Renovation</div>
+            </div>
+            <div class="service consultation card col-3 align-items-center d-flex flex-column py-3">
+                <div><img src="./pics/consultation_icon.png" alt=""></div>
+                <div class="rectangle"><img src="./pics/Rectangle 18(grey).png" alt=""></div>
+                <div class="text">Consultation</div>
+            </div>
+        </div >
+        <div class="d-flex gap-2 w-75 justify-content-around">
+            <div class="service repair_services card col-3 align-items-center d-flex flex-column bg-primary text-light py-3">
+                <div><img src="./pics/Repair_icon.png" alt=""></div>
+                <div class="rectangle"><img src="./pics/Rectangle 18(white).png" alt=""></div>
+                <div class="text">Repair Services</div>
+            </div>
+            <div class="service architecture card col-3 align-items-center d-flex flex-column py-3">
+                <div><img src="./pics/architecture_icon.png" alt=""></div>
+                <div class="rectangle"><img src="./pics/Rectangle 18(grey).png" alt=""></div>
+                <div class="text">Architecture</div>
+            </div>
+            <div class="service electric card col-3 align-items-center d-flex flex-column bg-primary text-lightbg-primary text-lightbg-primary text-light py-3">
+                <div><img src="./pics/electric_icon.png" alt=""></div>
+                <div class="rectangle"><img src="./pics/Rectangle 18(white).png" alt=""></div>
+                <div class="text">Electric</div>
+            </div>
+        </div>
+    </section>
+<!-- section 6 -->
+    <section class="statsContainer  position-relative d-flex w-100"
+    style="height: 700px;">
+        <div class="stats-art w-50">
+
+            <div class="project-complete card position-absolute"
+            style="top: 10%; left:0%;">
+                <div class="num">123</div>
+                <div class="rectangle"><hr><img src="./pics/Rectangle 19(orange).png" alt=""></div>
+                <div class="text-style">Projects Completed</div>
+                <div class="project-complete-logo">
+                    <img src="./pics/illus_notebook.png" alt="">
+                </div>
+            </div>
+
+            <div class="years-in-bussiness card position-absolute">
+                <div class="num">30</div>
+                <div class="rectangle"><hr><img src="./pics/Rectangle 19(orange).png" alt=""></div>
+                <div class="text-style">Years in Business</div>
+                <div class="years-in-bussiness-logo">
+                    <img src="./pics/illus_blueprint.png" alt="">
+                </div>
+            </div>
+
+            <div class="happy-clients card position-absolute">
+                <div class="num">84</div>
+                <div class="rectangle"><hr><img src="./pics/Rectangle 19(orange).png" alt=""></div>
+                <div class="text-style">Happy Clients</div>
+                <div class="happy-clients-logo">
+                    <img src="./pics/illus_handshake.png" alt="">
+                </div>
+            </div>
+
+            <div class="awards-win card position-absolute">
+                <div class="num">37</div>
+                <div class="rectangle"><hr><img src="./pics/Rectangle 19(orange).png" alt=""></div>
+                <div class="text-style">Awards Win</div>
+                <div class="awards-win-logo">
+                    <img src="./pics/illus_trophy.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="stat-desc">
+            <h1 class="fw-bold py-5">30 Years Experience</h1>
+      <p class="py-5 pe-5">Our company has been the leading provided construction services to clients throughout the USA since 1988.</p>
+      <button class="btn bg-primary text-white ">Contact Us</button>
+        </div>
+    </section>
+<!-- section 7 -->
+    <section class="ads-container d-flex justify-content-between align-items-center"
+    style="background-image: url(./pics/unsplash_MP0bgaS_d1c.png);">
+    <div>
+        <p class="free-consult text-white p-5 fs-1">Free consultation with exceptional quality</p>
+        <p class="phone text-white p-5 fs-5">Just one call away:+84 1102 2703</p>
+    </div>
+        <div class="button-consult p-5">
+            <button class="p-3 btn border-white text-white">Get your consultation</button>
+        </div>
+    </section>
+
+<!-- section 8 -->
+    <section class="projectsContainer p-5">
+        <div class="fs-3 fw-bold pt-5">Projects </div>
+        <div class="row py-5">
+        <div class="projectMenu col-2">
+            <ul class="list-unstyled">
+                <li>All</li>
+                <li>Commercial</li>
+                <li>Residential</li>
+                <li>Other</li>
+            </ul>
+        </div>
+        <div class="card col-4 offset-2 bg-primary text-white">
+            <div><img src="./pics/projBuilding.png" alt=""></div>
+            <div class="project-title">Wildstone Infra Hotel</div>
+            <div class="project-desc">2715 Ash Dr. San Jose, South Dakota</div>
+        </div>
+        <div class="card col-4 bg-primary text-white">
+            <div><img src="./pics/projBuilding2.png" alt=""></div>
+            <div class="project-title">Wish Stone Building</div>
+            <div class="project-desc">2972 Westheimer Rd. Santa Ana, Illinois </div>
+        </div>
+        </div>
+        <div class="project-card row py-5">
+            <div class="card col-4 offset-4 bg-primary text-white">
+                <div><img src="./pics/projBuilding3.png" alt=""></div>
+                <div class="project-title">Mr. Parkinston’s House</div>
+                <div class="project-desc">3517 W. Gray St. Utica, Pennsylvania</div>
+            </div>
+            <div class="card col-4 bg-primary text-white">
+                <div><img src="./pics/projBuilding4.png" alt=""></div>
+                <div class="project-title">Oregano Height</div>
+                <div class="project-desc">2464 Royal Ln. Mesa, New Jersey </div>
+            </div>
+        </div>
+        <div class="projectNav row">
+            <div class="projBack col-3 offset-4 bg-black">
+                <button class="w-100 btn text-white"><img src="./pics/VectorLarrow.png" alt=""> Back</button>
+            </div>
+            <div class="projNext col-3  offset-2 bg-black">
+                <button class="w-100 btn text-white d-flex justify-content-center align-items-center">Next <img src="./pics/VectorRarrow.png" alt=""></button>
+            </div>
+        </div>
+</section>
+
+<!-- section 9 -->
+    <section class="form-container d-flex flex-column justify-content-center align-items-center p-5 bg-body-tertiary">
+        <h2 class="fw-bold">What can us do for you?</h2>
+        <p>We are ready to work on a project of any complexity, whether it's commercial or residential.</p>
+        <div class="tableSection">
+            <form class="form">
+                <div class="row p-2">
+                    <div class="col-3 offset-3">
+                        <input type="text" class="formStyle1 w-100 px-2" placeholder="Your Name*">
+                    </div>
+                    <div class="col-3">
+                        <input type="email" class="formStyle2 w-100 px-2" placeholder="Email*">
+                    </div>
+                    
+                </div>
+                <div class="row p-2">
+                    <div class="col-3 offset-3">
+                        <select name="reason" class="formStyle3 w-100 px-2" id="reason">
+                            <option value="">Reason for Contacting*</option>
+                        </select>
+                    </div>
+                    <div class="col-3">
+                        <input type="text" class="formStyle4 w-100 px-2" placeholder="Phone">
+                    </div>
+                </div>
+                <div class="row p-2">
+                    <div class="col-6 offset-3">
+                        <textarea row="8" type="text" placeholder="Message" class="formStyle5 w-100 px-2" id="message"></textarea>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <button class="btn bg-primary text-white px-5"><span>Submit</span></button>
+    </section>
+
+<!-- section 10 -->
+    <section class="bottom-container d-flex justify-content-between align-items-center">
+        <div class="left-section">
+            <ul class="list-unstyled ms-5">
+                <li><span class="text-primary">ADDRESS:</span>  6391 Elgin St. Celina, Delaware 10299</li>
+                <li><span class="text-primary">PHONE:</span> +84 1102 2703</li>
+                <li><span class="text-primary">EMAIL:</span> hello@theox.com</li>
+                <li class="bottom-logo">
+                    <div class="box-logo col-2 d-flex align-items-center">
+                        <img src="./pics/BoxLogo.png" alt="">
+                        <p class="text-primary-emphasis fw-bold fs-2 align-self-center pt-2 ps-2"><em>The</em>Box</p> 
+                </div>
+                </li>
+            </ul>
+        </div>
+        <div class="right-section">
+            <ul class="list-unstyled me-4">
+                <li><span class="text-primary">NEWSLETTER:</span></li>
+                <li><input type="search" id="subscribe" placeholder="Your email here">
+                    <label for="subscribe"><span class="text-white bg-warning p-1" style="border-radius: 4px;">Subscribe</span></label></li>
+                <li><span class="text-primary">Social:</span></li>
+                <li>
+                    <img src="./pics/entypo-social_linkedin-with-circle.png" alt="">
+                    <img src="./pics/entypo-social_twitter-with-circle.png" alt="">
+                    <img src="./pics/akar-icons_facebook-fill.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--section 11  -->
+    <section class="footer bg-primary text-white px-5 py-2">
+        <p>TheBox Company © 2022. All Rights Reserved</p>
+    </section>
+</body>
+</html>

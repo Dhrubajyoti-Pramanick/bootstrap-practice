@@ -1,0 +1,25 @@
+table {
+    /* border: 2px solid red; */
+    margin: 50px;
+    padding: 50px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid blue;
+    font-size: 70px;
+    padding: 20px;
+}
+
+#A {
+    border-style: none;
+    background: none;
+}
+
+th {
+    background-color: rgb(254, 47, 47);
+}
+
+td {
+    background-color: rgb(51, 211, 51);
+}

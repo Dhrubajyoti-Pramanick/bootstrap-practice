@@ -1,0 +1,51 @@
+div {
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    background-color: aquamarine;
+    overflow: scroll;
+}
+
+.parent {
+    position: fixed;
+    top:200px;
+    left: 200px;
+}
+
+.child {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    width:50px;
+    height: 50px;
+}
+
+table {
+    border: 3px solid red;
+    width: 300px;
+    height: 100px;
+    /* background-color: yellow; */
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid green;
+    text-align: center;
+}
+
+th {
+    border: 2px solid green;
+    text-align: center;
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(80, 80, 216);
+}
+
+tbody tr:nth-child(even) {
+    background-color: aqua;
+}
+

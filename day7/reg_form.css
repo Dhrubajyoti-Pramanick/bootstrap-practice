@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* font-size: 2vw; */
+}
+
+.container {
+    background-image: url("bg.jpeg");
+    /* background:scroll; */
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    padding: 1em;
+    font-size: 4vw;
+}
+
+.head {
+    /* font-size: 3vw; */
+    text-align: center;
+    grid-column: 1/3;
+}
+
+.head:hover {
+    color: purple;
+}
+
+.gender {
+    grid-column: 1/3;
+}
+
+.address {
+    grid-column: 1/3;
+    /* padding: 20px; */
+}
+
+.submit {
+    grid-column: 1/3;
+    justify-self: center;
+}
+
+input[type="submit"] {
+    background-color: yellow;
+}
+/* 
+input[type="text"] {
+    width: 50%;
+} */
+
+@media screen and (max-width:500px) {
+    .fname {
+        grid-column: 1/3;
+    }
+    
+    .dept {
+        grid-column: 1/3;
+    }
+
+    .uname {
+        grid-column: 1/3;
+    }
+
+    .passwrd {
+        grid-column: 1/3;
+    }
+
+    .cpasswrd {
+        grid-column: 1/3;
+    }
+
+    .email {
+        grid-column: 1/3;
+    }
+
+    .cnum {
+        grid-column: 1/3;
+    }
+
+    input[name="fname"] {
+        width: 200px;
+        position: relative;
+        left: 60px;
+    }
+    
+    input[name="lname"] {
+        width: 200px;
+        position: relative;
+        left: 159px;
+    }
+    
+    input[name="address"] {
+        /* background-color: red; */
+        width: 200px;
+        position: relative;
+        left: 83px;
+    }
+    select[name="dept"] {
+        /* background-color: red; */
+        width: 204px;
+        position: relative;
+        left: 54px;
+    }
+
+    input[name="uname"] {
+        /* background-color: red; */
+        width: 200px;
+        position: relative;
+        left: 68px;
+    }
+    input[name="passwrd"] {
+        /* background-color: red; */
+        width: 200px;
+        position: relative;
+        left: 72px;
+    }
+    input[name="cpasswrd"] {
+        /* background-color: red; */
+        width: 200px;
+        position: relative;
+        /* left: 62px; */
+    }
+    input[name="email"] {
+        /* background-color: red; */
+        width: 200px;
+        position: relative;
+        left: 92px;
+    }
+    input[name="cnum"] {
+        /* background-color: red; */
+        width: 200px;
+        position: relative;
+        left: 58px;
+    }
+    input[name="date"] {
+        /* background-color: red; */
+        width: 193px;
+        position: relative;
+        left: 106px;
+    }
+
+
+
+    
+}

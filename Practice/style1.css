@@ -1,0 +1,20 @@
+.type {
+    font-size: 50px;
+    color: red;
+    border: 2px solid green;
+    border-collapse: collapse;
+}
+
+.A {
+    padding: 10px;
+    margin: 12px;
+}
+
+.B {
+    padding: 12px;
+    margin: 14px;
+}
+
+td {
+    border-collapse: collapse;
+}

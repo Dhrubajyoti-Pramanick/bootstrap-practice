@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="reg_form.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <header>
+                <h1><u>Registration Form</u></h1>
+            </header>
+        </div>
+        <div class="fname">
+            <label for="fname">First Name:</label>
+            <input type="text" maxlength="20" id="fname" name="fname" placeholder="Enter First Name">
+        </div>
+        <div class="lname">
+            <label for="lname">Last Name:</label>
+            <input type="text" maxlength=""20 id="lname" name="lname" placeholder="Enter Last Name">
+        </div>
+        <div class="gender">
+            <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" checked>
+                <label for="make">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="make">Female</label>
+        </div>
+        <div class="address">
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" placeholder="Enter your address">
+        </div>
+        <div class="dept">
+            <label for="dept">Dept/Office:</label>
+            <select name="dept" id="dept">
+                <option value="">Select an option</option>
+                <option value="CSE">B.Tech(CSE)</option>
+                <option value="IT">B.Tech(IT)</option>
+                <option value="BCA">BCA</option>
+            </select>
+        </div>
+        <div class="uname">
+            <label for="uname">Username:</label>
+            <input type="text" id="uname" name="uname" placeholder="Enter username">
+        </div>
+        <div class="passwrd">
+            <label for="passwrd">Password:</label>
+            <input type="password" name="passwrd" id="passwrd">
+        </div>
+        <div class="cpasswrd">
+            <label for="cpasswrd">Confirm Password:</label>
+            <input type="cpasswrd" id="passwrd" name="cpasswrd">
+        </div>
+        <div class="email">
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="abc@gmail.com">
+        </div>
+        <div class="cnum">
+            <label for="cnum">Contact No.</label>
+            <input type="number" id="cnum" name="cnum"placeholder="+91">
+        </div>
+        <div class="date">
+            <label for="date">DOB:</label>
+            <input type="date" id="date" name="date">
+        </div>
+        <div class="submit">
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+</body>
+</html>
